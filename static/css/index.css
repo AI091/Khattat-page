@@ -155,3 +155,43 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.header-row th {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.subheader {
+  font-style: italic;
+  font-size: 0.9em;
+}
+.bold {
+  font-weight: bold;
+}
+.arrow-up::after {
+  content: " ↑";
+  color: green;
+}
+.arrow-down::after {
+  content: " ↓";
+  color: red;
+}
+.section-header {
+  background-color: #e6e6e6;
+  font-weight: bold;
+}
